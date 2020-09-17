@@ -1,15 +1,16 @@
 ion-content {
- background: linear-gradient(to right, #ef32d9, #89fffd);
+ background: linear-gradient(to right, #ffffff, #ffffff);
+
 }
 h1 {
-  color: bisque
+  color: black
 }
 h2 {
 color: yellowgreen
 }
 img {
   max-width: 50%;
-  height: auto;
+  height: 50;
 }
 p {
 font-family: Arial, Helvetica, sans-serif;
