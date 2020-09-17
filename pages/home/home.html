@@ -1,0 +1,56 @@
+<<ion-header>
+  
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+   
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+   <img src="https://cdn.jsdelivr.net/gh/Emtech1/12-C-10@master/Meralco.svg.png">
+   
+  <h1>Electricity Cost Calculator App</h1>
+  <p>
+  This Electricity online calculator comes from the modernization program of Meralco, the objective of this program is to move our customer services online. We hope that this application will prove to be useful for our loyal customers in them, calculating their personal electricity usages and costs.
+  </p>
+  <p><em>
+     Directions: 
+     </em></p>
+     <p><em>
+   1. Type the Power Consumption, Hours of Use and Cost per Kilowatt Hour of your Preferred Appliance.
+   <p><em>
+   2. Click on Compute, to Know your Consumption and Cost per Day, Month and Year
+  </em></p>
+  <br />
+
+<ion-item>
+  <ion-label>Power Consumption(Watts)</ion-label>
+  <ion-input type="number" [(ngModel)]="watts"></ion-input>
+  </ion-item>
+  <ion-item>
+  <ion-label>Hours of Use: </ion-label>
+  <ion-input type="number" [(ngModel)]="hours"></ion-input>
+  </ion-item>
+  <ion-item>
+  <ion-label>Cost per kWh ( Peso ):</ion-label>
+  <ion-input type="number" [(ngModel)]="cost"></ion-input>
+  </ion-item>
+
+  <button ion-button color="primary" (click)="compute()">Compute</button>
+
+  <br /> <br />
+  <ion-item *ngIf="costperday">
+    <h2> Electricity Cost: </h2>
+    <h3> Electricity Cost per Day: Php {{costperday}} </h3>
+    <h3> Electricity Cost per Month: Php {{costperday*30}} </h3>
+    <h3> Electricity Cost per Year: Php {{costperday*365}} </h3>
+</ion-item>
+    <ion-item *ngIf="consperday">
+      <h2> Electricity Consumed: </h2>
+      <h3> Electricity Consumed per Day:{{costperday}} Kwh per Day</h3>
+      <h3> Electricity Consumed per Month:{{costperday*30}} Kwh per Day</h3>
+      <h3> Electricity Consumed per Year:{{costperday*365}} Kwh per Day</h3>
+     
+    </ion-item>
+ 
+  

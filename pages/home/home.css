@@ -1,0 +1,18 @@
+ion-content {
+ background: linear-gradient(to right, #ef32d9, #89fffd);
+}
+h1 {
+  color: bisque
+}
+h2 {
+color: yellowgreen
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
+p {
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+color: black
+}
