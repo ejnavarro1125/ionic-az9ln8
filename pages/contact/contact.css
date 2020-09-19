@@ -1,7 +1,7 @@
 ion-content {
-  background: linear-gradient(to right, #fdc830, #f37335);
-}
+  background: linear-gradient( #f12711, #f5af19);
 
+}
 h2 {
   color: #606c88;
   text-align: right;
@@ -14,4 +14,5 @@ img {
 
   max-width: 70%;
   height: auto;
+  align: right;
 }
