@@ -1,0 +1,18 @@
+ion-content {
+ 
+
+}
+h2 {
+  color: #606c88;
+  text-align: right;
+}
+p {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+img {
+
+  max-width: 70%;
+  height: auto;
+  align: right;
+}
