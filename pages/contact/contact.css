@@ -4,7 +4,7 @@ ion-content {
 }
 h2 {
   color: #606c88;
-  text-align: right;
+  text-align: left;
 }
 p {
   font-family: 'Times New Roman', Times, serif;
@@ -14,5 +14,5 @@ img {
 
   max-width: 70%;
   height: auto;
-  align: right;
+  
 }
