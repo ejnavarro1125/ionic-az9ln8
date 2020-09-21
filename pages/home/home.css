@@ -18,8 +18,16 @@ h6{
   color:orange
 }
 img {
-  max-width: 50%;
-  height: 50;
+
+  max-width: 70%;
+  height: auto;
+ }
+
+img{
+  height: 50vh;
+  width: auto;
+  margin: auto;
+  display: block;
 }
 p {
 font-family: Arial, Helvetica, sans-serif;
