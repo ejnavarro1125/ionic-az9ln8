@@ -1,13 +1,15 @@
-ion-content {
-background-image: "https://cdn.jsdelivr.net/gh/Emtech1/12-C-10@master/pexels-pixabay-268533.jpg";
-
- }
+ion-content{
+    background-image: url('https://cdn.jsdelivr.net/gh/Emtech1/12-C-10@master/pexels-pixabay-268533.jpg');
+    -webkit-background-image: url('https://cdn.jsdelivr.net/gh/Emtech1/12-C-10@master/pexels-pixabay-268533.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
 h2 {
   color: #606c88;
   text-align: left;
 }
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Helvetica, sans-serif ;
   text-align: justify;
 }
 img {
