@@ -16,3 +16,15 @@ color:white
   p{
 color:white
   }
+img {
+
+  max-width: 70%;
+  height: auto;
+ }
+
+img{
+  height: 50vh;
+  width: auto;
+  margin: auto;
+  display: block;
+}

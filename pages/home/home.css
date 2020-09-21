@@ -3,7 +3,11 @@ ion-content{
     -webkit-background-image: url('https://cdn.jsdelivr.net/gh/Emtech1/12-C-10@master/pexels-pixabay-268533.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+}
+  primary{
+    color: orange
   }
+  
 h1 {
   color:white
 }
