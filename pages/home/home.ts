@@ -15,11 +15,16 @@ cost: number;
 consperday: number;
 costperday: number;
 
+
+
+
   constructor(public navCtrl: NavController) {
   }
+
   compute() {
     this.consperday = (this.watts * this.hours/1000);
     this.costperday = (this.watts * this.hours/1000*(this.cost))
+
    
   }
 

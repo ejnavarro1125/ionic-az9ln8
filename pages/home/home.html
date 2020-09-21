@@ -42,14 +42,14 @@
 
   <ion-item *ngIf="costperday">
     <h2> Electricity Cost: </h2>
-    <h3> Electricity Cost per Day:   Php {{costperday}} </h3>
-    <h3> Electricity Cost per Month: Php {{costperday*30}} </h3>
-    <h3> Electricity Cost per Year:  Php {{costperday*365}} </h3>
+    <h3> Electricity Cost per Day:   Php {{costperday.toFixed(2)}} </h3>
+    <h3> Electricity Cost per Month: Php {{(costperday*30).toFixed(2)}} </h3>
+    <h3> Electricity Cost per Year:  Php {{(costperday*365).toFixed(2)}} </h3>
 
 </ion-item>
     <ion-item *ngIf="consperday">
       <h2> Electricity Consumed: </h2>
-      <h3> Electricity Consumed per Day:   {{consperday}} Kwh per Day</h3>
-      <h3> Electricity Consumed per Month: {{consperday*30}} Kwh per Month</h3>
-      <h3> Electricity Consumed per Year:  {{consperday*365}} Kwh per Year</h3>
+      <h3> Electricity Consumed per Day:   {{consperday.toFixed(2)}} Kwh per Day</h3>
+      <h3> Electricity Consumed per Month: {{(consperday*30).toFixed(2)}} Kwh per Month</h3>
+      <h3> Electricity Consumed per Year:  {{(consperday*365).toFixed(2)}} Kwh per Year</h3>
     </ion-item>
