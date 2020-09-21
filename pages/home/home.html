@@ -39,18 +39,18 @@
   <button ion-button color="primary" (click)="compute()">Compute</button>
   
   <br /> <br />
+  
   <ion-item *ngIf="costperday">
     <h2> Electricity Cost: </h2>
     <h3> Electricity Cost per Day:   Php {{costperday}} </h3>
-    <h3> Electricity Cost per Month: Php {{costperday*30.4374298043}} </h3>
+    <h3> Electricity Cost per Month: Php {{costperday*30}} </h3>
     <h3> Electricity Cost per Year:  Php {{costperday*365}} </h3>
+
 </ion-item>
     <ion-item *ngIf="consperday">
       <h2> Electricity Consumed: </h2>
-      <h3> Electricity Consumed per Day:   {{costperday}} Kwh per Day</h3>
-      <h3> Electricity Consumed per Month: {{costperday*30}} Kwh per Month</h3>
-      <h3> Electricity Consumed per Year:  {{costperday*365}} Kwh per Year</h3>
+      <h3> Electricity Consumed per Day:   {{consperday}} Kwh per Day</h3>
+      <h3> Electricity Consumed per Month: {{consperday*30}} Kwh per Month</h3>
+      <h3> Electricity Consumed per Year:  {{consperday*365}} Kwh per Year</h3>
 
     </ion-item>
- 
-  
