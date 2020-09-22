@@ -11,11 +11,17 @@ ion-content{
 h1 {
   color:white
 }
+h1{
+font-size:40px !important;
+}
 h2 {
 color:orange
 }
 h6{
   color:orange
+}
+h6{
+font-size:18px !important;
 }
 img {
 
@@ -33,6 +39,9 @@ p {
 font-family: Arial, Helvetica, sans-serif;
 text-align: justify;
 color: white
+}
+p{
+font-size:16px !important;
 }
 ion-item {
   color: black
