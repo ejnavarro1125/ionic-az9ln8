@@ -34,3 +34,9 @@ font-family: Arial, Helvetica, sans-serif;
 text-align: justify;
 color: white
 }
+ion-item {
+  color: black
+}
+ion-label{
+  color:blue
+}
